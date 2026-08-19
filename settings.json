@@ -1,0 +1,40 @@
+{
+  "server": {
+    "host": "your-server.aternos.me",
+    "port": 25565,
+    "version": false
+  },
+
+  "account": {
+    "type": "offline",
+    "username": "AFK_Bot",
+    "useAccountList": false
+  },
+
+  "behavior": {
+    "wander": true,
+    "wanderRadius": 15,
+    "autoRespondToKick": true,
+    "antiAfk": true,
+    "jumpIntervalMs": 30000
+  },
+
+  "leaveRejoin": {
+    "enabled": true,
+    "sessionDurationMinutes": 90,
+    "breakDurationMinutes": 5,
+    "rotateAccounts": false
+  },
+
+  "logging": {
+    "level": "info",
+    "logToFile": true,
+    "logFilePath": "./logs/bot.log"
+  },
+
+  "reconnect": {
+    "enabled": true,
+    "delayMs": 5000,
+    "maxRetries": 10
+  }
+}
